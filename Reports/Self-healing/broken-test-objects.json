@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/Notes/Forms/TelephonicOutreach/Page_Welcome to Persivia/Obj_OfficeLocationSelecttion",
+      "brokenLocator": "(//li[contains(text(), \u0027Sanctuary at McAuley\u0027)])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[144]/div/div[2]/ul/li",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/Notes/Forms/TelephonicOutreach/Page_Welcome to Persivia/Obj_OfficeLocationSelecttion_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_PatientGrid/OR_LeftFilters/GridObjects/Obj_VerifyEnrollment",
+      "brokenLocator": "(//div[@id\u003d\u0027patient-grid\u0027]//div)[4]//tr[1]//td[35]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027patient-grid\u0027]/div[3]/table/tbody/tr/td[36]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OR_PatientGrid/OR_LeftFilters/GridObjects/Obj_VerifyEnrollment_idRelative.png"
+    }
+  ]
 }
