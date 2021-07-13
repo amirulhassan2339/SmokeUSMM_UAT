@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Obj_SelectProgram</name>
+   <name>Obj_NotificationType_Select3</name>
    <tag></tag>
-   <elementGuidId>4ab9a326-b13c-42f6-8a3d-d3e3f1f714b5</elementGuidId>
+   <elementGuidId>4bd152c0-5729-4f97-9da9-fb9918c0a57b</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id=&quot;toc_filter_notification_listbox&quot;]/li[3]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>li.k-item.k-state-hover</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='careType_listbox']/li[contains(text(), 'CCM')]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'CCM' or . = 'CCM') and @ref_element = 'Object Repository/OR_PatientGrid/OR_LeftFilters/GridObjects/Obj_CCMFrame']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

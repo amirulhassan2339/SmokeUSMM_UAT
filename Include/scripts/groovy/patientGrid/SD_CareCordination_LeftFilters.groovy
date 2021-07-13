@@ -77,7 +77,7 @@ class SD_CareCordination_LeftFilters {
 		WebUI.waitForElementClickable(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/Obj_buttonApply'), 10)
 
 		WebUI.click(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/Obj_buttonApply'))
-		
+
 		Thread.sleep(3000)
 	}
 
@@ -178,11 +178,28 @@ class SD_CareCordination_LeftFilters {
 
 
 
-		if(NotificationType==NotificationType) {
+		if(NotificationType== 'Presenting') {
 
 			Thread.sleep(2000)
 			WebUI.click(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/OR_NotificationType/Obj_NotificationType_Select'))
-		}else {
+
+		}
+
+		if(NotificationType== 'Admitting') {
+
+			Thread.sleep(2000)
+			WebUI.click(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/OR_NotificationType/Obj_NotificationType_Select2'))
+
+		}
+
+		if(NotificationType== 'Discharge') {
+
+			Thread.sleep(2000)
+			WebUI.click(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/OR_NotificationType/Obj_NotificationType_Select3'))
+
+		}
+
+		else {
 
 			throw new NoSuchElementException("Can't find " + NotificationType + " in dropdown");
 		}

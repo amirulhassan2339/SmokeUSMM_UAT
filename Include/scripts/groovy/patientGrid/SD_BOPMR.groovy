@@ -101,7 +101,7 @@ class SD_BOPMR {
 			WebUI.waitForElementClickable(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPButtons/OR_BasedOnPatientMedicalRecord/Obj_BasedOnPatientMedicalRecord'), 10)
 
 			WebUI.click(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPButtons/OR_BasedOnPatientMedicalRecord/Obj_BasedOnPatientMedicalRecord'))
-			
+
 			Thread.sleep(5000)
 		} else {
 			WebUI.takeFullPageScreenshot()
@@ -171,29 +171,29 @@ class SD_BOPMR {
 	@Then("I should see patient (.*) as patient_name")
 	public void verify_Patient_Data(String Patient) {
 
-//		'Verify Save Button'
-//		WebUI.verifyElementPresent(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGrid_Buttons/Obj_buttonSave'),
-//				3)
-//
-//		'Verify Save & Close Button'
-//
-//		WebUI.verifyElementPresent(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGrid_Buttons/Obj_buttonSaveClose'),
-//				3)
-//
-//		'Verify Cancel Button'
-//
-//		WebUI.verifyElementPresent(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGrid_Buttons/Obj_buttonCancel'),
-//				3)
-//
-//		'Verify Print Button'
-//
-//		WebUI.verifyElementPresent(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGrid_Buttons/OR_Print/Obj_ButtonPrint'),
-//				3)
-//
-//		'Verify Component Setting Button'
-//
-//		WebUI.verifyElementPresent(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGrid_Buttons/ComponentSetting/Obj_ButtonComponentSetting'),
-//				3)
+		//		'Verify Save Button'
+		//		WebUI.verifyElementPresent(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGrid_Buttons/Obj_buttonSave'),
+		//				3)
+		//
+		//		'Verify Save & Close Button'
+		//
+		//		WebUI.verifyElementPresent(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGrid_Buttons/Obj_buttonSaveClose'),
+		//				3)
+		//
+		//		'Verify Cancel Button'
+		//
+		//		WebUI.verifyElementPresent(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGrid_Buttons/Obj_buttonCancel'),
+		//				3)
+		//
+		//		'Verify Print Button'
+		//
+		//		WebUI.verifyElementPresent(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGrid_Buttons/OR_Print/Obj_ButtonPrint'),
+		//				3)
+		//
+		//		'Verify Component Setting Button'
+		//
+		//		WebUI.verifyElementPresent(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGrid_Buttons/ComponentSetting/Obj_ButtonComponentSetting'),
+		//				3)
 
 		'Verify Care Plan Patient Name'
 
@@ -245,7 +245,7 @@ class SD_BOPMR {
 	public void I_select_work_in_progress_as_no() {
 
 		Thread.sleep(2000)
-		
+
 		WebUI.click(findTestObject('Object Repository/OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGridLabels/Obj_NO'))
 	}
 
@@ -330,11 +330,11 @@ class SD_BOPMR {
 	public void I_click_on_title_from_care_plan_grid() {
 
 		WebUI.waitForElementClickable(findTestObject('Object Repository/OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_Title/Obj_Title'), 15)
-		
+
 		WebUI.click(findTestObject('Object Repository/OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_Title/Obj_Title'))
-	
+
 		Thread.sleep(3000)
-		}
+	}
 
 	@And("I should see patient data as read only")
 	public void I_should_see_patient_data_as_read_only() {
@@ -491,9 +491,9 @@ class SD_BOPMR {
 
 	@When("I click on print button")
 	public void I_click_on_print_button() {
-		
+
 		Thread.sleep(3000)
-		
+
 
 		WebUI.click(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGrid_Buttons/OR_Print/Obj_ButtonPrint'))
 
@@ -595,9 +595,9 @@ class SD_BOPMR {
 	public void I_click_apply_button() {
 
 		WebUI.click(findTestObject('Object Repository/OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGrid_Buttons/ComponentSetting/Obj_Apply_ComponentSetting'))
-	
-		
-		}
+
+
+	}
 
 
 	@And("I should see add new emergency contact")
@@ -620,9 +620,9 @@ class SD_BOPMR {
 
 
 		WebUI.click(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/OR_CPGrid_Buttons/ComponentSetting/Component_Validation/AddNewEmergencyContact/Fields/Obj_PlusSign'))
-	
+
 		Thread.sleep(2000)
-		}
+	}
 
 
 	@And("I enter last name as (.*)")
