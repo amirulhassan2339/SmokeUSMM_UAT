@@ -20,7 +20,7 @@ class SD_LeftFilters {
 
 
 		Thread.sleep(4000)
-		WebUI.waitForElementClickable(findTestObject('OR_PatientGrid/OR_LeftFilters/LeftFiltersObjects/Obj_buttonReset'), 20)
+		WebUI.waitForElementClickable(findTestObject('OR_PatientGrid/OR_LeftFilters/LeftFiltersObjects/Obj_buttonReset'), 30)
 
 		WebUI.click(findTestObject('OR_PatientGrid/OR_LeftFilters/LeftFiltersObjects/Obj_buttonReset'))
 		Thread.sleep(2000)

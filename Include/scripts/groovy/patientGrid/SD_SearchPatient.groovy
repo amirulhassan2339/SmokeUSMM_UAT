@@ -33,7 +33,7 @@ class SD_SearchPatient {
 //		WebUI.waitForElementClickable(findTestObject('OR_PatientGrid/OR_SearchPatient/OR_Search/Select_Filters/Select_Search'), 10)
 //
 //		WebUI.click(findTestObject('OR_PatientGrid/OR_SearchPatient/OR_Search/Select_Filters/Select_Search'))
-		Thread.sleep(5000)
+		Thread.sleep(8000)
 	}
 
 

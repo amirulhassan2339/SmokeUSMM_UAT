@@ -62,11 +62,17 @@ class SD_BOPMR {
 	//	}
 
 
-	@Then("I am on PWB")
-	public void I_am_on_PWB() {
+	@Then("I am on PWB with (.*)")
+	public void I_am_on_PWB(String Patient) {
 
-		WebUI.verifyElementPresent(findTestObject('OR_PatientGrid/OR_SearchPatient/SearchPatientGrid/OR_Name/Obj_First_LastName'),
-				3)
+		//WebUI.verifyElementPresent(findTestObject('OR_PatientGrid/OR_SearchPatient/SearchPatientGrid/OR_Name/Obj_First_LastName'),3)		
+		
+		String ActualName = WebUI.getText(findTestObject('OR_PatientGrid/OR_SearchPatient/SearchPatientGrid/OR_Name/Obj_First_LastName'))
+		WebUI.verifyEqual(ActualName, Patient)
+		
+		
+		
+		
 	}
 
 	@And("I click on care plan tab")

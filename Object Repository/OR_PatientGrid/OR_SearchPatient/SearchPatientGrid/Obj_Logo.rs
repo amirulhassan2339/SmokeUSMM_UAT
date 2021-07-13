@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Obj_First_LastName</name>
+   <name>Obj_Logo</name>
    <tag></tag>
-   <elementGuidId>b6167aa4-ee41-4406-a2c1-9db4bb267b47</elementGuidId>
+   <elementGuidId>fa635f72-4bbb-4879-96cb-36e4661bda89</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(@data-bind, 'text: fullName')]</value>
+         <value>//a[@id='tabSelectorHome']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

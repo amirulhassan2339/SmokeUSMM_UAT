@@ -13,7 +13,7 @@ Feature: Left Filters
 
 		Examples: 
 			| Facility                                       |
-			| Sanctuary at McAuley |
+			| VPA Specialty Programs |
   @Program
   Scenario Outline: Applying Program Filters
     And I click on reset button
