@@ -119,27 +119,27 @@ class SD_Schedule {
 
 
 		String actual_PatientName = WebUI.getText(findTestObject('Object Repository/OR_PatientGrid/Schedule/Obj_VerifyPatientName'))
-		WebUI.verifyEqual(actual_PatientName, findTestData('DF_CMRData/TD_SUI').getValue(1, 1))
+		WebUI.verifyEqual(actual_PatientName, findTestData('DF_CMRData/TD_SUI').getValue(1, 2))
 
 
 		String actual_MRN = WebUI.getText(findTestObject('Object Repository/OR_PatientGrid/Schedule/Obj_VerifyMRN'))
-		WebUI.verifyEqual(actual_MRN, findTestData('DF_CMRData/TD_SUI').getValue(2, 1))
+		WebUI.verifyEqual(actual_MRN, findTestData('DF_CMRData/TD_SUI').getValue(2, 2))
 
 
 		String actual_Reason = WebUI.getText(findTestObject('Object Repository/OR_PatientGrid/Schedule/Obj_VerifyReason'))
-		WebUI.verifyEqual(actual_Reason, findTestData('DF_CMRData/TD_SUI').getValue(3, 1))
+		WebUI.verifyEqual(actual_Reason, findTestData('DF_CMRData/TD_SUI').getValue(3, 2))
 
 		String actual_VisitTypeName = WebUI.getText(findTestObject('Object Repository/OR_PatientGrid/Schedule/Obj_VerifyVisitType'))
-		WebUI.verifyEqual(actual_VisitTypeName, findTestData('DF_CMRData/TD_SUI').getValue(4, 1))
+		WebUI.verifyEqual(actual_VisitTypeName, findTestData('DF_CMRData/TD_SUI').getValue(4, 2))
 
 
 		String actual_Status = WebUI.getText(findTestObject('Object Repository/OR_PatientGrid/Schedule/Obj_VerifyStatus'))
-		WebUI.verifyEqual(actual_Status, findTestData('DF_CMRData/TD_SUI').getValue(5, 1))
+		WebUI.verifyEqual(actual_Status, findTestData('DF_CMRData/TD_SUI').getValue(5, 2))
 
 		String actual_ApptProvider = WebUI.getText(findTestObject('Object Repository/OR_PatientGrid/Schedule/Obj_VerifyProvider'))
-		WebUI.verifyEqual(actual_ApptProvider, findTestData('DF_CMRData/TD_SUI').getValue(6, 1))
+		WebUI.verifyEqual(actual_ApptProvider, findTestData('DF_CMRData/TD_SUI').getValue(6, 2))
 
 		String actual_Gender = WebUI.getText(findTestObject('Object Repository/OR_PatientGrid/Schedule/Obj_VerifyGender'))
-		WebUI.verifyEqual(actual_Gender, findTestData('DF_CMRData/TD_SUI').getValue(7, 1))
+		WebUI.verifyEqual(actual_Gender, findTestData('DF_CMRData/TD_SUI').getValue(7, 2))
 	}
 }

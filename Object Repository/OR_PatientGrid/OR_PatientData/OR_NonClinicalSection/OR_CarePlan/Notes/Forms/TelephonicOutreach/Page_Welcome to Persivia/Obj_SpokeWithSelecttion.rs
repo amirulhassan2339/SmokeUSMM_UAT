@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//li[contains(text(), 'Family')])[2]</value>
+         <value>(//li[contains(text(), 'Family')])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

@@ -28,4 +28,4 @@ Feature: Care Plan - Notes - Forms
 
     Examples: 
       | Patient          | DateTime          | Provider | Duration | Follow_Up_Plan | Comments                                                                   |
-      | BABCOX, MICHAEL | 03152021 03:20 AM | mason,   | 10:15:20 | Education      | Lorem Ipsum is simply dummy text of the printing and typesetting industry. |
+      | BABCOX, MICHAEL | 03152021 03:20 AM | alexandre,   | 10:15:20 | Education      | Lorem Ipsum is simply dummy text of the printing and typesetting industry. |

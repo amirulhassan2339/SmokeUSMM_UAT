@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//li[contains(text(), 'Sanctuary at McAuley')])</value>
+         <value>(//li[contains(text(), 'Telehealth Test')])</value>
       </entry>
       <entry>
          <key>CSS</key>
