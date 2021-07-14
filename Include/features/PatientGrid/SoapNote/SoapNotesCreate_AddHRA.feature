@@ -19,7 +19,7 @@ Feature: Soap Note Creation from Schedule flow
 
     Examples: 
       | Patient          | Reason    |
-      | Dermo505, Mac505 | Back pain |
+      | BABCOX, MICHAEL | Back pain |
 
   @Smoke_USMM_VerifyPatientData
   Scenario Outline: Verify That Patient Data Are Showing
@@ -33,7 +33,7 @@ Feature: Soap Note Creation from Schedule flow
 
     Examples: 
       | Patient          |
-      | Dermo505, Mac505 |
+      | BABCOX, MICHAEL |
 
   @Smoke_USMM_HRATabsVerifications
   Scenario Outline: Verify That While Clicking HRA - Three Tabs Are Showing
@@ -45,7 +45,7 @@ Feature: Soap Note Creation from Schedule flow
     When I click on add HRA plus button
     Then I should see HRA popup with all tabs
       | Patient          |
-      | Dermo505, Mac505 |
+      | BABCOX, MICHAEL |
 
   @Smoke_USMM_CreateSN
   Scenario Outline: Verify Creating Soap Notes - Based On Patient's Medical Record

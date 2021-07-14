@@ -18,7 +18,7 @@ Feature: Scheduled Left Filters flow
 
     Examples: 
       | Patient          | Reason    |
-      | Dermo505, Mac505 | Back pain |
+      | BABCOX, MICHAEL | Back pain |
 
 @SmokeUSMM_VerifyVisitTypeFilter
   Scenario Outline: Verify Visit Type Filters
@@ -53,7 +53,7 @@ Feature: Scheduled Left Filters flow
     
     Examples: 
       | Patient          | 
-      | Dermo505, Mac505 |
+      | BABCOX, MICHAEL |
 
 @SmokeUSMM_VerifyDataFromExcel
   Scenario: Verify That Patient From Excel

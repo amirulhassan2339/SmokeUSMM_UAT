@@ -5,7 +5,7 @@ Feature: Care Plan - Notes - Forms
 
   Scenario Outline: Verify SNF Waiver
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on notes tab
     * I click on plus form
     * I click on SNF Waiver
@@ -34,4 +34,4 @@ Feature: Care Plan - Notes - Forms
 
     Examples: 
       | Patient          | DateTime          | AprimaID | ReferralSourceDate | ReferralName | LastSeenByVPAProvider | AdmissionDate | Facility | EstimatedLOS | DischargeDate | ActualLOS | Comments                                                                   |
-      | Dermo505, Mac505 | 03152021 03:20 AM |      122 |           12022020 | Ali          | 12022020         |      12202021 | MHPN     |           10 |      15092020 |        15 | Lorem Ipsum is simply dummy text of the printing and typesetting industry. |
+      | BABCOX, MICHAEL | 03152021 03:20 AM |      122 |           12022020 | Ali          | 12022020         |      12202021 | MHPN     |           10 |      15092020 |        15 | Lorem Ipsum is simply dummy text of the printing and typesetting industry. |

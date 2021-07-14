@@ -65,7 +65,7 @@ Feature: Supper Bill flows
   
   Examples:
   | Patient          | Reason    | ThePatientUnderstands                                                             | LocationOfVisit | PCName | PC_PhoneNumber | PatientCareTeam_Notes                                                             | Temp | Pulse | Repeat_Pulse | Resp_Rate | Pulse_Ox | Repeat_Pulse_Ox | Constitutional       |Soap_Status|Facility|
-  | Dermo505, Mac505 | Back pain | I am not assuming any responsibility for their care of providing direct treatment | Office          | Amir   |   032545235210 | I am not assuming any responsibility for their care of providing direct treatment |  102 |    50 |           60 |        20 |      100 |              85 | In no acute distress |Signed|MHPN3|
+  | BABCOX, MICHAEL | Back pain | I am not assuming any responsibility for their care of providing direct treatment | Office          | Amir   |   032545235210 | I am not assuming any responsibility for their care of providing direct treatment |  102 |    50 |           60 |        20 |      100 |              85 | In no acute distress |Signed|MHPN3|
   
   @SmokeUSMM_SupperBill_Status_Incomplete
   Scenario Outline: Verify that patients are filtered against Billing status Incomplete

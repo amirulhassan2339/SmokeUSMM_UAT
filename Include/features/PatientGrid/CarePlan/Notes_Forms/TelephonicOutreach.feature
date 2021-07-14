@@ -5,7 +5,7 @@ Feature: Care Plan - Notes - Forms
 
   Scenario Outline: Verify Telephonic Outreach
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on notes tab
     * I click on plus form
     * I click on telephonic outreach
@@ -28,4 +28,4 @@ Feature: Care Plan - Notes - Forms
 
     Examples: 
       | Patient          | DateTime          | Provider | Duration | Follow_Up_Plan | Comments                                                                   |
-      | Dermo505, Mac505 | 03152021 03:20 AM | mason,   | 10:15:20 | Education      | Lorem Ipsum is simply dummy text of the printing and typesetting industry. |
+      | BABCOX, MICHAEL | 03152021 03:20 AM | mason,   | 10:15:20 | Education      | Lorem Ipsum is simply dummy text of the printing and typesetting industry. |

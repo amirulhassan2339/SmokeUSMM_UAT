@@ -19,7 +19,7 @@ Feature: Soap Note Creation from Schedule flow
 
     Examples: 
       | Patient          | Reason    |
-      | Dermo505, Mac505 | Back pain |
+      | BABCOX, MICHAEL | Back pain |
 
   @Smoke_USMM_CreatingProblems
 
@@ -47,7 +47,7 @@ Feature: Soap Note Creation from Schedule flow
 
     Examples: 
       | ProblemsCode      | Problems_Start_Date | Patient          |
-      | diabetes mellitus |            04162021 |Dermo505, Mac505|
+      | diabetes mellitus |            04162021 |BABCOX, MICHAEL|
       
 
 
