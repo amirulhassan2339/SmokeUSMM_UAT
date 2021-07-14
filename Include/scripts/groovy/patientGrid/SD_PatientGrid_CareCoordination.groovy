@@ -13,12 +13,12 @@ import cucumber.api.java.en.Given
 import internal.GlobalVariable
 
 
-public class SD_PatientGrid {
+public class SD_PatientGrid_CareCoordination {
 
 
 
-	@Given("I navigate to patient grid")
-	public void I_navigate_to_patient_grid() {
+	@Given("I navigate to patient grid Care Coordination")
+	public void I_navigate_to_patient_grid_CareCoordination() {
 
 
 
@@ -27,19 +27,10 @@ public class SD_PatientGrid {
 		WebUI.waitForElementClickable(findTestObject('Object Repository/OR_HomePage/Obj_Enterprise'), 10)
 		WebUI.click(findTestObject('Object Repository/OR_HomePage/Obj_Enterprise'))
 
-		if(GlobalVariable.Enterprise=='MHPN') {
+		
 
-			WebUI.click(findTestObject('Object Repository/OR_HomePage/Obj_SelectMHPN'))
-		}
-		if(GlobalVariable.Enterprise=='Support Test Ent') {
-
-			WebUI.click(findTestObject('Object Repository/OR_HomePage/Obj_SelectSupportTestEnt'))
-		}
-
-		if(GlobalVariable.Enterprise=='VPA Specialty Programs') {
-
-			WebUI.click(findTestObject('Object Repository/OR_HomePage/Obj_SelectVPASpecialtyPrograms'))
-		}
+			WebUI.click(findTestObject('Object Repository/OR_HomePage/Obj_SelectUSMedicalManagementACO'))
+	
 
 
 
@@ -70,7 +61,7 @@ public class SD_PatientGrid {
 		WebUI.mouseOver(findTestObject('OR_LandingPage/OR_CMR/Obj_CMR'))
 
 
-		WebUI.click(findTestObject('Object Repository/OR_LandingPage/OR_CMR/Obj_Patients'))
+		WebUI.click(findTestObject('Object Repository/OR_LandingPage/OR_CMR/Obj_SelectPatients_ForCareCoordinationOnly'))
 
 		//		WebUI.click(findTestObject('OR_Alert/Obj_Hide'))
 

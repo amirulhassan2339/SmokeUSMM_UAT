@@ -6,7 +6,7 @@ Feature: Care Plan - Add Emergency Contact
   @Smoke_USMM
   Scenario Outline: Add New Emergency Contact While Show & Hide multiple Components
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on basedonpatientmedicalrecord
@@ -26,4 +26,4 @@ Feature: Care Plan - Add Emergency Contact
 
     Examples: 
       | Patient          | Title                 | LastName   | FirstName | HomePhone    | MobilePhone | SucessMessage                           |
-      | Dermo505, Mac505 | New Emergence Contact | Automation | CMR       | 923019536782 | 30195366523 | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | New Emergence Contact | Automation | CMR       | 923019536782 | 30195366523 | successCare Plan Saved SuccessfullyHide |

@@ -7,7 +7,7 @@ Feature: Care Plan - Blank
   @SmokeUSMM_Blank
   Scenario Outline: Blank
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -18,12 +18,12 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title          | SucessMessage                           |
-      | Dermo505, Mac505 | TestingPatient | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | TestingPatient | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_ApprovedSaveBtn_Blank
   Scenario Outline: Verify Approve Status Function Using Save Button
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -46,12 +46,12 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title           | New Status | Draft Status | Approved Status | SucessMessage                           |
-      | Dermo505, Mac505 | ApprovedPatient | New        | Draft        | Approved        | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | ApprovedPatient | New        | Draft        | Approved        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_ApprovedSaveCloseBtn_Blank
   Scenario Outline: Verify Approve Status Function Using Save & Close Button
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -75,13 +75,13 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title           | New Status | Draft Status | Approved Status | SucessMessage                           |
-      | Dermo505, Mac505 | ApprovedPatient | New        | Draft        | Approved        | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | ApprovedPatient | New        | Draft        | Approved        | successCare Plan Saved SuccessfullyHide |
 
    
   @SmokeUSMM_DraftSaveBtn_Blank
   Scenario Outline: Verify Draft status function using save button
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -97,12 +97,12 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title        | New Status | Draft Status | SucessMessage                           |
-      | Dermo505, Mac505 | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_DraftSaveCloseBtn_Blank
   Scenario Outline: Verify draft status function using save & close button
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -119,12 +119,12 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title        | New Status | Draft Status | SucessMessage                           |
-      | Dermo505, Mac505 | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_WIPSaveBtn_Blank
   Scenario Outline: Verify WIP status function using save button
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -142,12 +142,12 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title      | New Status | WIP Status | SucessMessage                           |
-      | Dermo505, Mac505 | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_WIPSaveCloseBtn_Blank
   Scenario Outline: Verify WIP status function using save & close button
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -163,12 +163,12 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title      | New Status | WIP Status | SucessMessage                           |
-      | Dermo505, Mac505 | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_RejectedSaveBtn_Blank
   Scenario Outline: Verify reject status function using save button
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -192,12 +192,12 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title           | New Status | Draft Status | Rejected Status | SucessMessage                           |
-      | Dermo505, Mac505 | RejectedPatient | New        | Draft        | Rejected        | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | RejectedPatient | New        | Draft        | Rejected        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_RejectedSaveCloseBtn_Blank
   Scenario Outline: Verify reject status function using save & close button
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -221,12 +221,12 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title           | New Status | Draft Status | Rejected Status | SucessMessage                           |
-      | Dermo505, Mac505 | RejectedPatient | New        | Draft        | Rejected        | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | RejectedPatient | New        | Draft        | Rejected        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_ExportWhileWIP_Blank
   Scenario Outline: Verify Export function while WIP status
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -241,12 +241,12 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title      | New Status | WIP Status | SucessMessage                           |
-      | Dermo505, Mac505 | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_ExportWhileDraft_Blank
   Scenario Outline: Verify export function while draft status
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -263,12 +263,12 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title        | New Status | Draft Status | SucessMessage                           |
-      | Dermo505, Mac505 | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_Print_Patient_WIP_Blank
   Scenario Outline: Verify Print Button Using Patient Care Plan While WIP Status
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -284,12 +284,12 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title      | New Status | WIP Status | SucessMessage                           |
-      | Dermo505, Mac505 | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_Print_Provide_WIP_Blank
   Scenario Outline: Verify Print Button Using Provide Care Plan While WIP Status
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -305,12 +305,12 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title      | New Status | WIP Status | SucessMessage                           |
-      | Dermo505, Mac505 | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | WIPPatient | New        | WIP        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_Print_Patient_Draft_Blank
   Scenario Outline: Verify Print Button Using Patient Care Plan While Draft Status
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -328,12 +328,12 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title        | New Status | Draft Status | SucessMessage                           |
-      | Dermo505, Mac505 | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_Print_Provide_Draft_Blank
   Scenario Outline: Verify Print Button Using Provide Care Plan While Draft Status
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -351,12 +351,12 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title        | New Status | Draft Status | SucessMessage                           |
-      | Dermo505, Mac505 | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | DraftPatient | New        | Draft        | successCare Plan Saved SuccessfullyHide |
 
   @SmokeUSMM_EmergencyContact_Blank
   Scenario Outline: Add New Emergency Contact While Show & Hide multiple Components
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on blank
@@ -376,4 +376,4 @@ Feature: Care Plan - Blank
 
     Examples: 
       | Patient   | Title                 | LastName   | FirstName | HomePhone    | MobilePhone | SucessMessage                           |
-      | Dermo505, Mac505 | New Emergence Contact | Automation | CMR       | 923019536782 | 30195366523 | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | New Emergence Contact | Automation | CMR       | 923019536782 | 30195366523 | successCare Plan Saved SuccessfullyHide |

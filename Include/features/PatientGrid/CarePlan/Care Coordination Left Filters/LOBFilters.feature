@@ -1,7 +1,7 @@
 Feature: Care Cordination Left Filters
 
   Background: 
-    Given I navigate to patient grid
+    Given I navigate to patient grid Care Coordination
 
   
   Scenario Outline: Applying LOB Filter
@@ -17,4 +17,4 @@ Feature: Care Cordination Left Filters
 
  Examples:
  |LOB|
- |Non-ACO (IAH)|
+ |Non-Attributed|

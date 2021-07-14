@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "381DFB6CD1B21EE78E1033E24980620D",
+  "keywordFileContentHash": "09FAC6001120D2B50D0D5C39B5DF83B7",
   "keywordClasses": [
     {
       "name": "patientGrid.SD_PatientGrid",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

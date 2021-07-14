@@ -1,7 +1,7 @@
 Feature: Care Cordination Left Filters
 
   Background: 
-    Given I navigate to patient grid
+    Given I navigate to patient grid Care Coordination
 
   Scenario Outline: Applying Serving Facility Filter
     When I click on care cordination
@@ -14,5 +14,5 @@ Feature: Care Cordination Left Filters
 
     Examples: 
       | ServingFacility |
-      | MHPN3    |
+      | Alpha Brovo Charlie    |
       

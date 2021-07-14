@@ -7,7 +7,7 @@ Feature: Care Plan - Reject Status Using SaveClose Button
   @Smoke_USMM
   Scenario Outline: Verify reject status function using save & close button
     When I search <Patient> using global search
-    Then I am on PWB
+    Then I am on PWB with <Patient>
     And I click on care plan tab
     And I click on add new care plan button
     And I click on basedonpatientmedicalrecord
@@ -31,4 +31,4 @@ Feature: Care Plan - Reject Status Using SaveClose Button
 
     Examples: 
       | Patient          | Title           | New Status | Draft Status | Rejected Status | SucessMessage                           |
-      | Dermo505, Mac505 | RejectedPatient | New        | Draft        | Rejected        | successCare Plan Saved SuccessfullyHide |
+      | BABCOX, MICHAEL | RejectedPatient | New        | Draft        | Rejected        | successCare Plan Saved SuccessfullyHide |

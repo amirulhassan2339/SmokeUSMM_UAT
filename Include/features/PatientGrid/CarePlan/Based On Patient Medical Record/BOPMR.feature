@@ -19,6 +19,4 @@ Feature: Care Plan - BOPMR
       | Patient          | Title          | SucessMessage                           |
       | BABCOX, MICHAEL | TestingPatient | successCare Plan Saved SuccessfullyHide |
       
-    #Examples: 
-      #| Patient          | Title          | Patient_Name     | MRN                | DOB             | LOB                 | Enterprise | SucessMessage                           |
-      #| Dermo505, Mac505 | TestingPatient | Dermo505, Mac505 | MRN  EntMerging505 | DOB  09/07/1905 | LOB  Non-Attributed | MHPN       | successCare Plan Saved SuccessfullyHide |
+   
