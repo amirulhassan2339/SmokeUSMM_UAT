@@ -530,9 +530,10 @@ class SD_SoapNotes {
 	@Then("I enter (.*) as the medication code")
 	public void i_enter_MedicationCode(String MedicationCode) {
 
+		
 		WebUI.setText(findTestObject('Object Repository/OR_PatientGrid/OR_PatientData/SoapNotes/Add_Medications/Obj_Medications_Input'),MedicationCode)
 
-		Thread.sleep(2000)
+		Thread.sleep(1000)
 
 		WebUI.sendKeys(findTestObject('Object Repository/OR_PatientGrid/OR_PatientData/SoapNotes/Add_Medications/Obj_Medications_Input'), Keys.chord(Keys.ENTER))
 
