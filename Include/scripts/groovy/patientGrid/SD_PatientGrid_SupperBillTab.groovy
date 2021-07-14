@@ -30,13 +30,13 @@ public class SD_PatientGrid_SupperBillTab {
 		}
 
 
-		
-		if(GlobalVariable.Enterprise=='VPA Specialty Programs') {
-			
-						WebUI.click(findTestObject('Object Repository/OR_HomePage/Obj_SelectVPASpecialtyPrograms'))
-					}
 
-					
+		if(GlobalVariable.Enterprise=='VPA Specialty Programs') {
+
+			WebUI.click(findTestObject('Object Repository/OR_HomePage/Obj_SelectVPASpecialtyPrograms'))
+		}
+
+
 		Thread.sleep(3000)
 		WebUI.click(findTestObject('OR_Alert/Obj_Hide'))
 		WebUI.getUrl()

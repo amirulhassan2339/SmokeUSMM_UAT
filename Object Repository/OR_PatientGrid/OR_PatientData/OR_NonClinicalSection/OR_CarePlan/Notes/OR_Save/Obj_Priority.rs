@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Priority'])[6]/following::span[4]</value>
+         <value>(//div[@class='k-edit-form-container']//div)[2]//div[2]//span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

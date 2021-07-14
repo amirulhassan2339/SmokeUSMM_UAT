@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "03A4F83D6F9CEA1BC72E38FD75F55579",
+  "keywordClasses": [
+    {
+      "name": "patientGrid.SD_SaveNotes",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

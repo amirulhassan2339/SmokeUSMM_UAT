@@ -53,12 +53,14 @@ public class SD_SaveNotes {
 	@Then("I click on notes tab")
 	public void i_click_on_notes_tab() {
 		WebUI.click(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/Notes/OR_Save/span_Notes'))
-	}
+	
+		Thread.sleep(4000)
+		}
 
 	@Then("I click on plus notes button")
 	public void i_click_on_plus_notes_button() {
 
-		WebUI.waitForElementClickable(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/Notes/OR_Save/button_Notes'), 10)
+		WebUI.waitForElementClickable(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/Notes/OR_Save/button_Notes'), 20)
 		WebUI.click(findTestObject('OR_PatientGrid/OR_PatientData/OR_NonClinicalSection/OR_CarePlan/Notes/OR_Save/button_Notes'))
 	}
 
