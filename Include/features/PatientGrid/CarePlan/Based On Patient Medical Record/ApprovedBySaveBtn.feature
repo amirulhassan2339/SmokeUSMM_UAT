@@ -16,8 +16,8 @@ Feature: Care Plan - Approved Using Save Button
 		 And I select work in progress as no
 		 And I click on save button
 		Then I should see success message <SucessMessage> of CP
-		Then I should see patient <Patient> as patient_name
-		 And I should see status as <Draft Status> on CP header
+		* I should see patient <Patient> as patient_name
+		 * I should see status as <Draft Status> on CP header
 		When I click on saveapprove button
 		#And I click on review button
 		#And I click on saveapprove button
@@ -32,7 +32,7 @@ Feature: Care Plan - Approved Using Save Button
 
 		Examples: 
 			| Patient          | Title           | New Status | Draft Status | Approved Status | SucessMessage                           |
-			| TRUONG, DU D | ApprovedPatient | New        | Draft        | Approved        | successCare Plan Saved SuccessfullyHide |
+			| BABCOX, MICHAEL | ApprovedPatient | New        | Draft        | Approved        | successCare Plan Saved SuccessfullyHide |
     #Examples: 
       #| Patient          | Title           | New Status | Draft Status | Approved Status | Patient_Name     | MRN                | DOB             | LOB                 | Enterprise | SucessMessage                           |
       #| Dermo505, Mac505 | ApprovedPatient | New        | Draft        | Approved        | Dermo505, Mac505 | MRN  EntMerging505 | DOB  09/07/1905 | LOB  Non-Attributed | MHPN       | successCare Plan Saved SuccessfullyHide |

@@ -18,14 +18,15 @@ class SD_SearchPatient {
 		//		WebUI.click(findTestObject('OR_PatientGrid/OR_SearchPatient/OR_Search/OR_Input_Search_Field/Obj_inputSearch'))
 
 
+		Thread.sleep(8000)
 
-		WebUI.waitForElementClickable(findTestObject('OR_PatientGrid/OR_SearchPatient/OR_Search/OR_Input_Search_Field/Obj_inputSearch'), 20)
+		WebUI.waitForElementClickable(findTestObject('OR_PatientGrid/OR_SearchPatient/OR_Search/OR_Input_Search_Field/Obj_inputSearch'), 30)
 
 		WebUI.click(findTestObject('OR_PatientGrid/OR_SearchPatient/OR_Search/OR_Input_Search_Field/Obj_inputSearch'))
 
 		WebUI.setText(findTestObject('OR_PatientGrid/OR_SearchPatient/OR_Search/OR_Input_Search_Field/Obj_inputSearch'), Patient)
 		
-		Thread.sleep(2000)
+		Thread.sleep(3000)
 
 		WebUI.sendKeys(findTestObject('OR_PatientGrid/OR_SearchPatient/OR_Search/OR_Input_Search_Field/Obj_inputSearch'), Keys.chord(Keys.ENTER))
 		
@@ -39,12 +40,12 @@ class SD_SearchPatient {
 
 
 
-	@Then("I should see (.*) as patient with (.*) as MRN and (.*) as DOB and (.*) as Status on patient grid")
-	public void Patient_should_be_verified(String Patient_Name, String MRN, String DOB, String Patient_Status) {
-
-		String Actual_FirstLastName = WebUI.getText(findTestObject('OR_PatientGrid/OR_SearchPatient/SearchPatientGrid/OR_Name/Obj_First_LastName'))
-		WebUI.verifyEqual(Actual_FirstLastName, Patient_Name)
-
+//	@Then("I should see (.*) as patient with (.*) as MRN and (.*) as DOB and (.*) as Status on patient grid")
+//	public void Patient_should_be_verified(String Patient_Name, String MRN, String DOB, String Patient_Status) {
+//
+//		String Actual_FirstLastName = WebUI.getText(findTestObject('OR_PatientGrid/OR_SearchPatient/SearchPatientGrid/OR_Name/Obj_First_LastName'))
+//		WebUI.verifyEqual(Actual_FirstLastName, Patient_Name)
+//
 
 
 		//		String Actual_MRN = WebUI.getText(findTestObject('OR_PatientGrid/OR_SearchPatient/SearchPatientGrid/OR_MRN/Obj_MRN'))
@@ -56,7 +57,7 @@ class SD_SearchPatient {
 		//
 		//		String Actual_Status = WebUI.getText(findTestObject('Object Repository/OR_PatientGrid/OR_SearchPatient/SearchPatientGrid/OR_Status/Obj_PatientStatus'))
 		//		WebUI.verifyEqual(Actual_Status, Patient_Status)
-	}
+	//}
 
 
 	@Then("I should see (.*) as patient Name")

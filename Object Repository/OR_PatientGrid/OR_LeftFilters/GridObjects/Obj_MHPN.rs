@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@id='patient-grid']//tr)[2]//td[12]//span[contains(text(), 'Sanctuary at McAuley')]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@ref_element = 'Object Repository/OR_PatientGrid/OR_LeftFilters/GridObjects/Obj_CCMFrame']</value>
+         <value>(//div[@id='patient-grid']//tr)[2]//td[16]//span[contains(text(), 'VPA Specialty Programs')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>span.single-line-text.facility-link</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ref_element = 'Object Repository/OR_PatientGrid/OR_LeftFilters/GridObjects/Obj_CCMFrame']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

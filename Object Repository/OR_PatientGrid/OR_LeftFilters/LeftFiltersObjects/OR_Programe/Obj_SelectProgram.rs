@@ -6,12 +6,12 @@
    <elementGuidId>4ab9a326-b13c-42f6-8a3d-d3e3f1f714b5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.k-item.k-state-hover</value>
+         <key>XPATH</key>
+         <value>//ul[@id='careType_listbox']/li[contains(text(), 'VPA-Behavioral-Health-Social-Work')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='careType_listbox']/li[contains(text(), 'CCM')]</value>
+         <key>CSS</key>
+         <value>li.k-item.k-state-hover</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@id='patient-grid']//tr)[2]//td[34]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@ref_element = 'Object Repository/OR_PatientGrid/OR_LeftFilters/GridObjects/Obj_CCMFrame']</value>
+         <value>(//div[@id='patient-grid']//tr)[2]//td[37]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>td.program.k-state-border-down</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ref_element = 'Object Repository/OR_PatientGrid/OR_LeftFilters/GridObjects/Obj_CCMFrame']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

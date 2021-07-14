@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@id='patient-grid']//div)[4]//tr[1]//td[36]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Eligible (CCM), Suspended (Readmission)' or . = 'Eligible (CCM), Suspended (Readmission)') and @ref_element = 'Object Repository/OR_PatientGrid/OR_LeftFilters/GridObjects/Obj_CCMFrame']</value>
+         <value>(//div[@id='patient-grid']//div)[4]//tr[1]//td[39]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>td.enrollment.k-state-border-down</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Eligible (CCM), Suspended (Readmission)' or . = 'Eligible (CCM), Suspended (Readmission)') and @ref_element = 'Object Repository/OR_PatientGrid/OR_LeftFilters/GridObjects/Obj_CCMFrame']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

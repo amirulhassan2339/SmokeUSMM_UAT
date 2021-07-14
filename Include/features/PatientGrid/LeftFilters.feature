@@ -23,7 +23,7 @@ Feature: Left Filters
 
     Examples: 
       | Program |
-      | CCM     |
+      | VPA-Behavioral-Health-Social-Work     |
 
   @Enrollment
   Scenario Outline: Applying Enrollment Filters
@@ -34,4 +34,4 @@ Feature: Left Filters
 
     Examples: 
       | Enrollment |
-      | Eligible     |
+      | Pending Patient Consent (VPA-Behavioral-Health-Social-Work)     |

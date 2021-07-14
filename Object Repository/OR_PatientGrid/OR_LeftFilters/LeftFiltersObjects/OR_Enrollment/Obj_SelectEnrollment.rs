@@ -6,12 +6,12 @@
    <elementGuidId>1411630a-33a2-4d66-9241-f7219ffbd4f6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.k-item.k-state-hover</value>
+         <key>XPATH</key>
+         <value>(//ul[@id='enrollStatus_listbox']//li)[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//ul[@id='enrollStatus_listbox']//li)[4]</value>
+         <key>CSS</key>
+         <value>li.k-item.k-state-hover</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

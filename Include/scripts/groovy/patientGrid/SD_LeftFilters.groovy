@@ -19,11 +19,11 @@ class SD_LeftFilters {
 	public void click_On_Reset_Button() {
 
 
-		Thread.sleep(4000)
+		Thread.sleep(68000)
 		WebUI.waitForElementClickable(findTestObject('OR_PatientGrid/OR_LeftFilters/LeftFiltersObjects/Obj_buttonReset'), 30)
 
 		WebUI.click(findTestObject('OR_PatientGrid/OR_LeftFilters/LeftFiltersObjects/Obj_buttonReset'))
-		Thread.sleep(2000)
+		Thread.sleep(3000)
 	}
 
 	@When("I enter facility (.*)")
@@ -55,7 +55,7 @@ class SD_LeftFilters {
 
 
 		WebUI.click(findTestObject('OR_PatientGrid/OR_LeftFilters/LeftFiltersObjects/Obj_buttonApply'))
-		Thread.sleep(4000)
+		Thread.sleep(8000)
 	}
 
 
