@@ -56,7 +56,7 @@ class SD_SupperBill {
 		WebUI.waitForElementClickable(findTestObject('Object Repository/OR_PatientGrid/SupperBill/Obj_ApplyBTN'), 15)
 		
 		WebUI.click(findTestObject('Object Repository/OR_PatientGrid/SupperBill/Obj_ApplyBTN'))
-		Thread.sleep(4000)
+		Thread.sleep(6000)
 	}
 
 	@Then("I should see particualar patient data in (.*) as selected date")
@@ -125,6 +125,8 @@ class SD_SupperBill {
 
 		Thread.sleep(3000)		
 		WebUI.click(findTestObject('Object Repository/OR_PatientGrid/SupperBill/Obj_PatientClick_OpenGrid'))
+		Thread.sleep(5000)
+		
 	}
 
 	@Then("I should see (.*) particualar patient practice facility")
@@ -175,6 +177,7 @@ class SD_SupperBill {
 
 
 		WebUI.click(findTestObject('Object Repository/OR_PatientGrid/SupperBill/Obj_CloseBTN_SOAPNote'))
+		Thread.sleep(3000)
 	}
 
 
