@@ -26,9 +26,9 @@ Feature: Soap Note Creation from Schedule flow
     When I click on schedule tab
     Then I should see already scheduled appointment
     When I click on three dots
-    #* I hover over on create soapnotes
-    #* I click on based on patient medical record
-    * I click on edit soapnotes
+    * I hover over on create soapnotes
+    * I click on based on patient medical record
+    #* I click on edit soapnotes
     #Then I should see <Patient> as patient
     * I click on add Lab Results plus button
     And I enter <LabResults> as lab results in search and select analyte
