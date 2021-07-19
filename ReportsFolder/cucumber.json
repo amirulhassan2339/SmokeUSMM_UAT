@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12601469800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to patient grid With Schedule",
+            "match": {
+              "location": "SD_PatientGrid_ScheduleTab.I_navigate_to_patient_grid_Schedule()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 27967276500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SD_Login.Browser()"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "Verify deleting Scheduled Appointment",
+        "description": "",
+        "id": "scheduled-left-filters-flow;verify-deleting-scheduled-appointment",
+        "after": [
+          {
+            "result": {
+              "duration": 9058039600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SD_Login.Logout()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14759530400,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I should see already scheduled appointment",
+            "match": {
+              "location": "SD_SoapNotes.I_should_see_Already_Added_Appointment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1932881100,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click on three dots",
+            "match": {
+              "location": "SD_SoapNotes.I_Click_Three_Dots()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1350155800,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I click on delete appointment",
+            "match": {
+              "location": "SD_SoapNotes.I_Click_delete_appointmentBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 765876600,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I should see delete appointment message",
+            "match": {
+              "location": "SD_SoapNotes.I_should_see_appointment_DeleteMessage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeUSMM_DeleteScheduleAppointment_ScheduleModule"
+          }
+        ]
+      }
+    ],
+    "name": "Scheduled Left Filters flow",
+    "description": "",
+    "id": "scheduled-left-filters-flow",
+    "keyword": "Feature",
+    "uri": "Include/features/PatientGrid/Schedule_Module.feature",
+    "tags": []
+  }
+]

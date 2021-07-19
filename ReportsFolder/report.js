@@ -4,53 +4,6 @@ formatter.feature({
   "description": "",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "name": "Verify Visit Type Filters",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@SmokeUSMM_VerifyVisitTypeFilter"
-    }
-  ]
-});
-formatter.step({
-  "name": "I click on schedule left filters reset button",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "I Search \u003cVisitType\u003e as schedule visit type",
-  "keyword": "* "
-});
-formatter.step({
-  "name": "I click on schedule apply button",
-  "keyword": "* "
-});
-formatter.step({
-  "name": "I hover over the created appointment",
-  "keyword": "* "
-});
-formatter.step({
-  "name": "I should see \u003cVisitType\u003e as VisitType",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "VisitType"
-      ]
-    },
-    {
-      "cells": [
-        "Telehealth"
-      ]
-    }
-  ]
-});
 formatter.background({
   "name": "",
   "description": "",
@@ -65,4 +18,61 @@ formatter.step({
 });
 formatter.match({
   "location": "SD_PatientGrid_ScheduleTab.I_navigate_to_patient_grid_Schedule()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Verify deleting Scheduled Appointment",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@SmokeUSMM_DeleteScheduleAppointment_ScheduleModule"
+    }
+  ]
+});
+formatter.step({
+  "name": "I should see already scheduled appointment",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SD_SoapNotes.I_should_see_Already_Added_Appointment()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on three dots",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "SD_SoapNotes.I_Click_Three_Dots()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on delete appointment",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SD_SoapNotes.I_Click_delete_appointmentBtn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see delete appointment message",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SD_SoapNotes.I_should_see_appointment_DeleteMessage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 });
