@@ -10,12 +10,12 @@
          <value>//*[(text() = 'Heart Failure, CCM, Readmission' or . = 'Heart Failure, CCM, Readmission') and @ref_element = 'Object Repository/OR_PatientGrid/OR_LeftFilters/GridObjects/Obj_CCMFrame']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@id='tocGrid']//table)[2]//tr[1]//td[41]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>td.program.k-state-border-down</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='tocGrid']//table)[2]//tr[1]//td[43]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

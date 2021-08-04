@@ -16,4 +16,7 @@ Feature: Care Cordination Left Filters
 
     Examples: 
       | EncounterType |
-      | Inpatient      |
+      | Inpatient     |
+      
+      
+      

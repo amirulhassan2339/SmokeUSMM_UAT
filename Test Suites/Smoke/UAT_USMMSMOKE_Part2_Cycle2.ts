@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>UATUSMMSMOKE_Part2_Cycle1</name>
+   <name>UAT_USMMSMOKE_Part2_Cycle2</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -108,12 +108,6 @@
       <testCaseId>Test Cases/CucumberRunners/Based On Patient Medical Record/WIPBySaveCloseBtn</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>82027958-652c-4866-ba0c-6a9d09254a13</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CucumberRunners/Based On Patient Medical Record/TC_Components_HideShow</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8f2e498c-fbb6-4fa3-a08d-11b56eacae28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -208,6 +202,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CucumberRunners/Blank Care Plan/WIPBySaveCloseBtn_Blank_CP</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>82027958-652c-4866-ba0c-6a9d09254a13</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CucumberRunners/Based On Patient Medical Record/TC_Components_HideShow</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5605b10f-91f5-40c1-9f53-a1d9248b53c4</guid>

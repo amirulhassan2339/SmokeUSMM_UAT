@@ -26,7 +26,7 @@ class SD_SearchPatient {
 
 		WebUI.setText(findTestObject('OR_PatientGrid/OR_SearchPatient/OR_Search/OR_Input_Search_Field/Obj_inputSearch'), Patient)
 		
-		Thread.sleep(3000)
+		Thread.sleep(5000)
 
 		WebUI.sendKeys(findTestObject('OR_PatientGrid/OR_SearchPatient/OR_Search/OR_Input_Search_Field/Obj_inputSearch'), Keys.chord(Keys.ENTER))
 		

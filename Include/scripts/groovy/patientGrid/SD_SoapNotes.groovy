@@ -88,7 +88,7 @@ class SD_SoapNotes {
 		WebUI.click(findTestObject('Object Repository/OR_PatientGrid/OR_PatientData/SoapNotes/Obj_CreateBtn_Appointment'))
 
 
-		Thread.sleep(5000)
+		Thread.sleep(3000)
 	}
 
 	@And("I click on yes button")
@@ -99,6 +99,9 @@ class SD_SoapNotes {
 
 		WebUI.click(findTestObject('Object Repository/OR_PatientGrid/OR_PatientData/SoapNotes/Obj_YesBtn'))
 
+		//Proceed button click
+		//WebUI.click(findTestObject('Object Repository/OR_PatientGrid/OR_PatientData/SoapNotes/Obj_ProceedBtn'))
+		
 
 		//		WebElement  ProccedBTN = driver.findElement(By.xpath("//button[contains(@class, 'btn btn-primary btnProceed') and contains(text(), 'Proceed')]"));
 		//

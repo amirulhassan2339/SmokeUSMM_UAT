@@ -11,7 +11,7 @@ Feature: Search Patient
 
     Examples: 
       | Patient      | Patient_Name | MRN           | DOB        | Patient_Status |
-      | TRUONG, DU D | TRUONG, DU D | EFU9113150401 | 05/27/1950 | Active         |
+      | Hussey, Machel | Hussey, Machel | EFU9113150401 | 05/27/1950 | Active         |
 
   @SearchByFirstName
   Scenario Outline: Search Patient Using First Name From Patient Grid
@@ -21,7 +21,7 @@ Feature: Search Patient
 
     Examples: 
       | Patient | Patient_Name | MRN           | DOB        | Patient_Status |
-      | DU D    | TRUONG, DU D | EFU9113150401 | 05/27/1950 | Active         |
+      | Hussey,     | Hussey, Machel | EFU9113150401 | 05/27/1950 | Active         |
 
   @SearchByLastNameANDFirstName
   Scenario Outline: Search Patient Using Last and First Name From Patient Grid
@@ -30,7 +30,9 @@ Feature: Search Patient
 
     Examples: 
       | Patient     | Patient_Name | MRN           | DOB        | Patient_Status |
-      | DU D TRUONG | TRUONG, DU D | EFU9113150401 | 05/27/1950 | Active         |
+      | Machel, Hussey | Hussey, Machel | EFU9113150401 | 05/27/1950 | Active         |
+
+#DU D TRUONG
 
   @SearchByLastName
   Scenario Outline: Search Patient Using Last Name From Patient Grid
@@ -39,7 +41,7 @@ Feature: Search Patient
 
     Examples: 
       | Patient | Patient_Name | MRN           | DOB        | Patient_Status |
-      | TRUONG  | TRUONG, DU D | EFU9113150401 | 05/27/1950 | Active         |
+      | Machel  | Hussey, Machel | EFU9113150401 | 05/27/1950 | Active         |
 
   @SearchByMRN
   Scenario Outline: Search Patient Using MRN From Patient Grid
@@ -48,4 +50,4 @@ Feature: Search Patient
 
     Examples: 
       | Patient       | Patient_Name | MRN           | DOB        | Patient_Status |
-      | EFU9113150401 | TRUONG, DU D | EFU9113150401 | 05/27/1950 | Active         |
+      | PEA5CBD794D3BD45629F3CE81CBAD839B5 | Hussey, Machel | EFU9113150401 | 05/27/1950 | Active         |
