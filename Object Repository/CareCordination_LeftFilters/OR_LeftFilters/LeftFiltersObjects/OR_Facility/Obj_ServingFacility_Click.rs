@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//form[@id='toc_filter_form']//div)[15]//div</value>
+         <value>(//ul[@id='toc_filter_serving_practice_taglist'])//parent::div</value>
       </entry>
       <entry>
          <key>CSS</key>

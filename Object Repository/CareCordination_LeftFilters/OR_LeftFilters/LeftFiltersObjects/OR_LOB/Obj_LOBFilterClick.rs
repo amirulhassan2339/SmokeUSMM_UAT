@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//form[@id='toc_filter_form']//div)[49]</value>
+         <value>(//span[@aria-owns='toc_filter_lob_listbox'])/span</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@ref_element = 'Object Repository/OR_Telehealth/Obj_frame']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//form[@id='toc_filter_form']//div)[49]</value>
+      <value>(//span[@aria-owns='toc_filter_lob_listbox'])/span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

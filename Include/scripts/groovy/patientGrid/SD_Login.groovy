@@ -24,40 +24,6 @@ class SD_Login {
 	public void Browser() {
 
 
-
-
-
-		//		System.setProperty("webdriver.chrome.driver", DriverFactory.getChromeDriverPath());
-		//
-		//		ChromeOptions options = new ChromeOptions();
-		//
-		//		options.addArguments("--headless")
-		//		options.addArguments("--disable-gpu");
-		//		options.addArguments("--window-size=1920,1200");
-		//		options.addArguments("--ignore-certificate-errors");
-		//		options.addArguments("--disable-extensions");
-		//		options.addArguments("--no-sandbox");
-		//		options.addArguments("--disable-dev-shm-usage")
-		//
-		//		driver=new ChromeDriver(options);
-
-
-		//		ChromeOptions options = new ChromeOptions();
-		//		options.addArguments("--headless");
-		//		options.addArguments("--disable-gpu");
-		//		options.addArguments("--window-size=1920,1200");
-		//		options.addArguments("--ignore-certificate-errors");
-		//		options.addArguments("--disable-extensions");
-		//		options.addArguments("--no-sandbox");
-		//		options.addArguments("--disable-dev-shm-usage");
-		//		DesiredCapabilities capabilities = new DesiredCapabilities();
-		//		capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-		//		options.merge(capabilities);
-
-		//driver = new ChromeDriver(options);
-
-
-
 		WebUI.openBrowser('')
 
 		WebUI.maximizeWindow()

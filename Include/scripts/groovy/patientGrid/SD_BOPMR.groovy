@@ -70,6 +70,7 @@ class SD_BOPMR {
 		String ActualName = WebUI.getText(findTestObject('OR_PatientGrid/OR_SearchPatient/SearchPatientGrid/OR_Name/Obj_First_LastName'))
 		WebUI.verifyEqual(ActualName, Patient)
 		
+		Thread.sleep(5000)
 		
 		
 		

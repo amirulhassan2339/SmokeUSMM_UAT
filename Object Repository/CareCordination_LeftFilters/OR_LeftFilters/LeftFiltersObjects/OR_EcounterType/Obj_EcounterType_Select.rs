@@ -6,12 +6,12 @@
    <elementGuidId>92da5225-9405-4cee-ab24-430cf54a1179</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.k-item.k-state-hover</value>
+         <key>XPATH</key>
+         <value>(//input[@aria-owns='toc_filter_encounter_taglist toc_filter_encounter_listbox'])</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//form[@id='toc_filter_form']//div)[58]//input</value>
+         <key>CSS</key>
+         <value>li.k-item.k-state-hover</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

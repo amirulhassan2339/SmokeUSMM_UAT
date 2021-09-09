@@ -74,7 +74,7 @@ public class SD_PatientGrid {
 
 		//		WebUI.click(findTestObject('OR_Alert/Obj_Hide'))
 
-		Thread.sleep(3000)
+		Thread.sleep(5000)
 
 		WebUI.verifyElementPresent(findTestObject('Object Repository/OR_HomePage/Obj_Logo'), 3)
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//form[@id='toc_filter_form']//div)[22]//input</value>
+         <value>(//input[@aria-owns='toc_filter_serving_practice_type_taglist toc_filter_serving_practice_type_listbox'])</value>
       </entry>
       <entry>
          <key>CSS</key>

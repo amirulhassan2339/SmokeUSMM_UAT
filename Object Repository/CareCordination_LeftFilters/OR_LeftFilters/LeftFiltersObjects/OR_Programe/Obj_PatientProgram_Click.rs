@@ -6,12 +6,12 @@
    <elementGuidId>a5aee104-22fb-4bad-b3a7-6257fc9c3248</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.k-dropdown-wrap.k-state-default.k-state-hover.k-state-focused</value>
+         <key>XPATH</key>
+         <value>(//ul[@id='toc_filter_program_taglist'])//parent::div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//form[@id='toc_filter_form']//div)[34]</value>
+         <key>CSS</key>
+         <value>span.k-dropdown-wrap.k-state-default.k-state-hover.k-state-focused</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -25,7 +25,7 @@ class SD_CareCordination_LeftFilters {
 		WebUI.waitForElementClickable(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/Obj_CareCoordination'), 20)
 
 		WebUI.click(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/Obj_CareCoordination'))
-		Thread.sleep(2000)
+		Thread.sleep(18000)
 	}
 
 
@@ -35,7 +35,7 @@ class SD_CareCordination_LeftFilters {
 		WebUI.waitForElementClickable(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/Obj_buttonReset'),20)
 
 		WebUI.click(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/Obj_buttonReset'))
-		Thread.sleep(2000)
+		Thread.sleep(10000)
 	}
 
 	@And("I clear before and after dates")
@@ -78,7 +78,7 @@ class SD_CareCordination_LeftFilters {
 
 		WebUI.click(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/Obj_buttonApply'))
 
-		Thread.sleep(5000)
+		Thread.sleep(20000)
 	}
 
 
@@ -175,15 +175,16 @@ class SD_CareCordination_LeftFilters {
 		WebUI.waitForElementClickable(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/OR_NotificationType/Obj_NotificationType_Click'), 10)
 
 		WebUI.click(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/OR_NotificationType/Obj_NotificationType_Click'))
+		WebUI.click(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/OR_NotificationType/Obj_NotificationType_Select2'))
+		
 
 
-
-		if(NotificationType== 'Presenting') {
-
-			Thread.sleep(2000)
-			WebUI.click(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/OR_NotificationType/Obj_NotificationType_Select'))
-
-		}
+//		if(NotificationType== 'Presenting') {
+//
+//			Thread.sleep(2000)
+//			WebUI.click(findTestObject('Object Repository/CareCordination_LeftFilters/OR_LeftFilters/LeftFiltersObjects/OR_NotificationType/Obj_NotificationType_Select'))
+//
+//		}
 
 //		if(NotificationType== 'Admitting') {
 //
@@ -199,10 +200,10 @@ class SD_CareCordination_LeftFilters {
 //
 //		}
 
-		else {
-
-			throw new NoSuchElementException("Can't find " + NotificationType + " in dropdown");
-		}
+//		else {
+//
+//			throw new NoSuchElementException("Can't find " + NotificationType + " in dropdown");
+//		}
 	}
 
 	@And("I select (.*) as LOB")

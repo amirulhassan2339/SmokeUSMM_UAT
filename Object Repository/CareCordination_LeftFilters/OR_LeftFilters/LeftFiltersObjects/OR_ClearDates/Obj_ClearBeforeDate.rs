@@ -6,12 +6,12 @@
    <elementGuidId>5bddd01e-997a-452d-ab75-723c60f9d852</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.k-dropdown-wrap.k-state-default.k-state-hover.k-state-focused</value>
+         <key>XPATH</key>
+         <value>(//input[@id='toc_filter_start_assign_date'])</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//form[@id='toc_filter_form']//div)[69]//input</value>
+         <key>CSS</key>
+         <value>span.k-dropdown-wrap.k-state-default.k-state-hover.k-state-focused</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

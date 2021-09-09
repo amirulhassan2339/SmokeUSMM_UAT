@@ -16,7 +16,6 @@ Feature: Search Patient
   @SearchByFirstName
   Scenario Outline: Search Patient Using First Name From Patient Grid
     When I search <Patient> using global search
-    #Then I should see <Patient_Name> as patient with <MRN> as MRN and <DOB> as DOB and <Patient_Status> as Status on patient grid
     Then I should see <Patient_Name> as patient Name
 
     Examples: 

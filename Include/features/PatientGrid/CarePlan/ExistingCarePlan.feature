@@ -13,6 +13,10 @@ Feature: Existing Care Plan
     Examples: 
       | Patient          | ExistingCarePlan |
       | BABCOX, MICHAEL | TestApproved     |
+      #| BABCOX, MICHAEL | TestDraft        |
+      #| BABCOX, MICHAEL | TestRejected     |
+      #| BABCOX, MICHAEL | TestWIP          |
+      
 @SmokeUSMM_ExistingDraft
   Scenario Outline: Verify Existing Draft Care Plan
     When I search <Patient> using global search

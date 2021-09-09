@@ -6,12 +6,12 @@
    <elementGuidId>817195d6-3cab-425c-b41d-9b6ee7920092</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.k-dropdown-wrap.k-state-default.k-state-hover.k-state-focused</value>
+         <key>XPATH</key>
+         <value>(//span[@aria-owns='toc_filter_notification_listbox'])/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//form[@id='toc_filter_form']//div)[55]</value>
+         <key>CSS</key>
+         <value>span.k-dropdown-wrap.k-state-default.k-state-hover.k-state-focused</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
