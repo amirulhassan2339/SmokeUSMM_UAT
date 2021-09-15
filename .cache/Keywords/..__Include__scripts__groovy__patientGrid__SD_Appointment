@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "47D1A4A8D76733C956C538CC7595BC40",
+  "keywordClasses": [
+    {
+      "name": "patientGrid.SD_Appointment",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

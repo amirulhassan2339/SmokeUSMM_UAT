@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 12601469800,
+              "duration": 18162425700,
               "status": "passed"
             },
             "line": 4,
-            "name": "I navigate to patient grid With Schedule",
+            "name": "I navigate to patient grid",
             "match": {
-              "location": "SD_PatientGrid_ScheduleTab.I_navigate_to_patient_grid_Schedule()"
+              "location": "SD_PatientGrid.I_navigate_to_patient_grid()"
             },
             "keyword": "Given "
           }
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 27967276500,
+              "duration": 21883386200,
               "status": "passed"
             },
             "match": {
@@ -35,14 +35,14 @@
             }
           }
         ],
-        "line": 66,
-        "name": "Verify deleting Scheduled Appointment",
+        "line": 50,
+        "name": "Verify Creating Billing Information  - Based On Patient\u0027s Medical Record",
         "description": "",
-        "id": "scheduled-left-filters-flow;verify-deleting-scheduled-appointment",
+        "id": "soap-note-creation-from-schedule-flow;verify-creating-billing-information----based-on-patient-s-medical-record;;2",
         "after": [
           {
             "result": {
-              "duration": 9058039600,
+              "duration": 9605593700,
               "status": "passed"
             },
             "match": {
@@ -51,26 +51,38 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 14759530400,
+              "duration": 13243015500,
               "status": "passed"
             },
-            "line": 67,
+            "line": 28,
+            "name": "I click on schedule tab",
+            "match": {
+              "location": "SD_SoapNotes.I_click_on_scheduletab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 799727300,
+              "status": "passed"
+            },
+            "line": 29,
             "name": "I should see already scheduled appointment",
             "match": {
               "location": "SD_SoapNotes.I_should_see_Already_Added_Appointment()"
             },
-            "keyword": "And "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1932881100,
+              "duration": 4333926800,
               "status": "passed"
             },
-            "line": 68,
+            "line": 30,
             "name": "I click on three dots",
             "match": {
               "location": "SD_SoapNotes.I_Click_Three_Dots()"
@@ -79,41 +91,221 @@
           },
           {
             "result": {
-              "duration": 1350155800,
+              "duration": 528110700,
               "status": "passed"
             },
-            "line": 69,
-            "name": "I click on delete appointment",
+            "line": 31,
+            "name": "I hover over on create soapnotes",
             "match": {
-              "location": "SD_SoapNotes.I_Click_delete_appointmentBtn()"
+              "location": "SD_SoapNotes.I_hover_over_on_create_soap_notes()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 20805275300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click on based on patient medical record",
+            "match": {
+              "location": "SD_SoapNotes.I_click_kon_based_on_patient_medical_record()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 402796200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should see BABCOX, MICHAEL as patient",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BABCOX, MICHAEL",
+                  "offset": 13
+                }
+              ],
+              "location": "SD_SoapNotes.I_should_see_patient_data_on_add_notes_Popup(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15662792800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on Billing Information Edit button",
+            "match": {
+              "location": "SD_SoapNotes.I_click_On_BillingInformation_EditBTN()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1491111100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on Add button to billing info",
+            "match": {
+              "location": "SD_SoapNotes.I_click_On_BillingInformation_AddBTN()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 765876600,
+              "duration": 3093555900,
               "status": "passed"
             },
-            "line": 70,
-            "name": "I should see delete appointment message",
+            "line": 36,
+            "name": "I enter 99203 as billing information procedure",
             "match": {
-              "location": "SD_SoapNotes.I_should_see_appointment_DeleteMessage()"
+              "arguments": [
+                {
+                  "val": "99203",
+                  "offset": 8
+                }
+              ],
+              "location": "SD_SoapNotes.I_enter_BillingInformation(String)"
             },
-            "keyword": "And "
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1657886300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on billing information OK button",
+            "match": {
+              "location": "SD_SoapNotes.I_click_On_BillingInfoBTN()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2411080900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click on SaveClose button to save billing information",
+            "match": {
+              "location": "SD_SoapNotes.I_click_On_BillingInformation_SaveCloseBTN()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1665985400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I should see Billing Information data in soap note popup",
+            "match": {
+              "location": "SD_SoapNotes.I_should_see_BillingInformation_Table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6829991400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I click on Save button to save SOAP NOTE",
+            "match": {
+              "location": "SD_SoapNotes.I_click_On_SaveBTN_toSaveSOAPNOTE()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 310546300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I should see soap note saved message",
+            "match": {
+              "location": "SD_SoapNotes.I_should_see_save_notes_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5358903700,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on SaveClose button to save SOAP NOTE",
+            "match": {
+              "location": "SD_SoapNotes.I_click_On_SaveCloseBTN_toSaveSOAPNOTE()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 317518400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I should see soap note saved message",
+            "match": {
+              "location": "SD_SoapNotes.I_should_see_save_notes_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3789077000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I click on three dots",
+            "match": {
+              "location": "SD_SoapNotes.I_Click_Three_Dots()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4808708300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I should see Edit Soap Note option",
+            "match": {
+              "location": "SD_SoapNotes.I_Click_EditSoapNoteOption()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4224551000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I should see Billing Information data in soap note popup",
+            "match": {
+              "location": "SD_SoapNotes.I_should_see_BillingInformation_Table()"
+            },
+            "keyword": "* "
           }
         ],
         "tags": [
           {
-            "name": "@SmokeUSMM_DeleteScheduleAppointment_ScheduleModule"
+            "name": "@Smoke_USMM_CreateBillingInformation"
           }
         ]
       }
     ],
-    "name": "Scheduled Left Filters flow",
+    "name": "Soap Note Creation from Schedule flow",
     "description": "",
-    "id": "scheduled-left-filters-flow",
+    "id": "soap-note-creation-from-schedule-flow",
     "keyword": "Feature",
-    "uri": "Include/features/PatientGrid/Schedule_Module.feature",
+    "uri": "Include/features/PatientGrid/SoapNote/SoapNotes_AddBillingInformation.feature",
     "tags": []
   }
 ]

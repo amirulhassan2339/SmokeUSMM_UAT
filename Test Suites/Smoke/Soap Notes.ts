@@ -56,19 +56,19 @@
    <testCaseLink>
       <guid>61391c30-68ca-4722-b49f-857405eb7f8e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CucumberRunners/Soap Notes/TC_CreateSoapNotes</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bfd2f8da-a9b2-40e9-a458-0ee355473d92</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CucumberRunners/Soap Notes/TC_SignBTA</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>47da8f89-1876-4cf5-a744-24cbf3a5fa11</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CucumberRunners/Soap Notes/TC_DelateScheduleAppointment</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

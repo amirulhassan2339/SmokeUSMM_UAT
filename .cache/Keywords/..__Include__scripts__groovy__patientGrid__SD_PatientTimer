@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "38D62DA8C51F99E1608FB9851E6AA773",
+  "keywordClasses": [
+    {
+      "name": "patientGrid.SD_PatientTimer",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

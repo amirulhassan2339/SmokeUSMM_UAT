@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "EAD3A4A582EAABBA202A4FF2775F39FE",
+  "keywordFileContentHash": "D9EE0D84DE1E1C0CEEE9CABD6F38A820",
   "keywordClasses": [
     {
       "name": "patientGrid.SD_PatientGrid_SupperBillTab",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

@@ -53,6 +53,7 @@ public class SD_PatientGrid_SupperBillTab {
 		//		WebUI.click(findTestObject('OR_Alert/Obj_Hide'))
 
 		WebUI.enableSmartWait()
+		Thread.sleep(20000)
 
 
 

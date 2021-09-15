@@ -28,6 +28,8 @@ class SD_SupperBill {
 		WebUI.waitForElementClickable(findTestObject('Object Repository/OR_PatientGrid/SupperBill/Obj_ResetBTN'), 10)
 		WebUI.click(findTestObject('Object Repository/OR_PatientGrid/SupperBill/Obj_ResetBTN'))
 		
+		Thread.sleep(12000)
+		
 		
 	}
 
@@ -56,7 +58,7 @@ class SD_SupperBill {
 		WebUI.waitForElementClickable(findTestObject('Object Repository/OR_PatientGrid/SupperBill/Obj_ApplyBTN'), 15)
 		
 		WebUI.click(findTestObject('Object Repository/OR_PatientGrid/SupperBill/Obj_ApplyBTN'))
-		Thread.sleep(6000)
+		Thread.sleep(16000)
 	}
 
 	@Then("I should see particualar patient data in (.*) as selected date")
@@ -125,7 +127,7 @@ class SD_SupperBill {
 
 		Thread.sleep(3000)		
 		WebUI.click(findTestObject('Object Repository/OR_PatientGrid/SupperBill/Obj_PatientClick_OpenGrid'))
-		Thread.sleep(5000)
+		Thread.sleep(10000)
 		
 	}
 
@@ -142,7 +144,7 @@ class SD_SupperBill {
 
 		WebUI.click(findTestObject('Object Repository/OR_PatientGrid/SupperBill/Obj_SupperBillTab'))
 
-		Thread.sleep(2000)
+		Thread.sleep(14000)
 	}
 
 	@And("I select (.*) as Signed status from soap status")
